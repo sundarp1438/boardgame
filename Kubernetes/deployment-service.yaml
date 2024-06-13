@@ -16,7 +16,7 @@ spec:
         - name: docker-cred
       containers:
         - name: boardgame
-          image:  venkateshreddy679/board-game:0 # Image that will be used to containers in the cluster
+          image: sundarp1985/buildgame-app-pipeline:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
