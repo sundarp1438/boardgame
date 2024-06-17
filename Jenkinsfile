@@ -51,8 +51,7 @@ pipeline{
                 withSonarQubeEnv('sonar-server') {
                     sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=Board-Game \
                     -Dsonar.projectKey=Board-Game \
-                    -Dsonar.projectKey=
-                    sonar.exclusions = **/*.java
+                    -Dsonar.exclusions = **/*.java
                     '''
                 }
             }
