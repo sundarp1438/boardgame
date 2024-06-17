@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label 'rocky_8'
+        label 'rocky_9'
     }
     tools{
         jdk 'JAVA_HOME'
