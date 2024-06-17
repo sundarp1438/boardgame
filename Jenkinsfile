@@ -17,7 +17,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/sundarp1438/Board_Game.git'
+                git branch: 'main', url: 'https://github.com/sundarp1438/boardgame.git'
             }
         }
         stage('compile source code'){
