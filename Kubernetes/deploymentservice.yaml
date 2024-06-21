@@ -13,7 +13,7 @@ spec:
         app: boardgame
     spec:
       imagePullSecrets:
-        - name: docker-cred
+        - name: DockerHubPass
       containers:
         - name: boardgame
           image: sundarp1985/buildgame-app-pipeline:latest # Image that will be used to containers in the cluster
