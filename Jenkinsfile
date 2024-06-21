@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'slave_1'
+        label 'rocky_9'
     }
     
     tools{
@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/re24ddy/Sundar-Anna.git'
+                git branch: 'main', url: 'https://github.com/sundarp1438/boardgame.git'
             }
         }
         
